@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Reverie - 产品系列</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF0F5;
+        }
+        .navbar {
+            background-color: #FFB6C1;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: white;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .product-card img {
+            max-width: 200px;
+            height: 250px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">首页</a>
+        <a href="products.html">所有产品</a>
+        <a href="search.html">产品搜索</a>
+        <a href="cart.html">购物车</a>
+        <a href="checkout.html">付款</a>
+        <a href="contact.html">联系我们</a>
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="/api/placeholder/200/250" alt="柔雾粉底">
+            <h3>柔雾粉底</h3>
+            <p>轻薄无痕，自然遮瑕</p>
+            <p>¥298</p>
+            <button>加入购物车</button>
+        </div>
+        <div class="product-card">
+            <img src="/api/placeholder/200/250" alt="丝绒唇釉">
+            <h3>丝绒唇釉</h3>
+            <p>持久显色，丝滑质感</p>
+            <p>¥188</p>
+            <button>加入购物车</button>
+        </div>
+        <div class="product-card">
+            <img src="/api/placeholder/200/250" alt="清透蜜粉">
+            <h3>清透蜜粉</h3>
+            <p>细致毛孔，柔焦妆容</p>
+            <p>¥246</p>
+            <button>加入购物车</button>
+        </div>
+    </div>
+</body>
+</html>
