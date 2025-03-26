@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Reverie - 购物车</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF0F5;
+        }
+        .navbar {
+            background-color: #FFB6C1;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .cart-container {
+            max-width: 800px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #FFB6C1;
+            padding: 10px 0;
+        }
+        .total {
+            text-align: right;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">首页</a>
+        <a href="products.html">所有产品</a>
+        <a href="search.html">产品搜索</a>
+        <a href="cart.html">购物车</a>
+        <a href="checkout.html">付款</a>
+        <a href="contact.html">联系我们</a>
+    </div>
+
+    <div class="cart-container">
+        <h2>购物车</h2>
+        <div class="cart-item">
+            <span>柔雾粉底</span>
+            <span>¥298</span>
+            <input type="number" value="1" min="1">
+        </div>
+        <div class="cart-item">
+            <span>丝绒唇釉</span>
+            <span>¥188</span>
+            <input type="number" value="1" min="1">
+        </div>
+        <div class="total">
+            总计：¥486
+        </div>
+        <button>去结算</button>
+    </div>
+</body>
+</html>
