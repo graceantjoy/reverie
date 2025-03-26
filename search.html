@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Reverie - 产品搜索</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF0F5;
+        }
+        .navbar {
+            background-color: #FFB6C1;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .search-container {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .search-input {
+            padding: 10px;
+            width: 60%;
+            border: 2px solid #FFB6C1;
+            border-radius: 5px;
+        }
+        .search-results {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .result-card {
+            background-color: white;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">首页</a>
+        <a href="products.html">所有产品</a>
+        <a href="search.html">产品搜索</a>
+        <a href="cart.html">购物车</a>
+        <a href="checkout.html">付款</a>
+        <a href="contact.html">联系我们</a>
+    </div>
+
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="输入产品名称或类型">
+        <button>搜索</button>
+    </div>
+
+    <div class="search-results">
+        <div class="result-card">
+            <h3>柔雾粉底</h3>
+            <p>轻薄遮瑕</p>
+            <p>¥298</p>
+        </div>
+        <div class="result-card">
+            <h3>丝绒唇釉</h3>
+            <p>持久显色</p>
+            <p>¥188</p>
+        </div>
+    </div>
+</body>
+</html>
