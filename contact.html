@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Reverie - 联系我们</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF0F5;
+        }
+        .navbar {
+            background-color: #FFB6C1;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .contact-container {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #FFB6C1;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">首页</a>
+        <a href="products.html">所有产品</a>
+        <a href="search.html">产品搜索</a>
+        <a href="cart.html">购物车</a>
+        <a href="checkout.html">付款</a>
+        <a href="contact.html">联系我们</a>
+    </div>
+
+    <div class="contact-container">
+        <h2>联系我们</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="您的姓名" required>
+            <input type="email" placeholder="您的邮箱" required>
+            <textarea placeholder="您的留言" rows="5" required></textarea>
+            <button type="submit">发送</button>
+        </form>
+
+        <div>
+            <h3>客服热线</h3>
+            <p>400-123-4567</p>
+            <h3>电子邮箱</h3>
+            <p>service@reverie.com</p>
+            <h3>地址</h3>
+            <p>上海市浦东新区张江高科技园区</p>
+        </div>
+    </div>
+</body>
+</html>
