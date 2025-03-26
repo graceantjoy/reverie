@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Reverie - 付款</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFF0F5;
+        }
+        .navbar {
+            background-color: #FFB6C1;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .checkout-container {
+            max-width: 600px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #FFB6C1;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="homepage.html">首页</a>
+        <a href="products.html">所有产品</a>
+        <a href="search.html">产品搜索</a>
+        <a href="cart.html">购物车</a>
+        <a href="checkout.html">付款</a>
+        <a href="contact.html">联系我们</a>
+    </div>
+
+    <div class="checkout-container">
+        <h2>结算</h2>
+        <form>
+            <div class="form-group">
+                <label>姓名</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>电话</label>
+                <input type="tel" required>
+            </div>
+            <div class="form-group">
+                <label>地址</label>
+                <input type="text" required>
+            </div>
+            <div class="form-group">
+                <label>支付方式</label>
+                <select>
+                    <option>微信支付</option>
+                    <option>支付宝</option>
+                    <option>银行卡</option>
+                </select>
+            </div>
+            <button type="submit">确认付款</button>
+        </form>
+    </div>
+</body>
+</html>
